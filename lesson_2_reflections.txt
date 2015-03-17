@@ -10,4 +10,8 @@ How is the staging area different from the working directory and the repository?
   repository to be structured before committing anything. It has the value
   of allowing you to easily back out any changes where mistakes were made.
 
+How can you use the staging area to make sure you have one commit per logical change?
 
+  Only include files in the staging area that relate to the logical
+  change.
+  
