@@ -2,3 +2,12 @@ What happens when you initialize a repository? Why do you need to do it?
 
   It gets ready to accept files within the folder as part of the 
   repository. I.e. creates a new repository.
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+  It gives you a temporary location to organize how you want the
+  repository to be structured before committing anything. It has the value
+  of allowing you to easily back out any changes where mistakes were made.
+
+
