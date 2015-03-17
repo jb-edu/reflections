@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+  It gets ready to accept files within the folder as part of the 
+  repository. I.e. creates a new repository.
