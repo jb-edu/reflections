@@ -26,3 +26,10 @@ How do the diagrams help you visualize the branch structure?
   It makes the connections more obvious for traceability (to parent 
   nodes).
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+  The result is that we end up with one set of source files representing
+  code changes made on two separate development paths (branches). We
+  represent it the way we do in the diagram so that we can see all of the
+  history that resulted from both branches.
+
