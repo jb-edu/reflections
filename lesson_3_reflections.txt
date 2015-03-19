@@ -9,10 +9,20 @@ automatically stay up-to-date with your remote repository?
     You might have a change locally that hasn't been committed yet. If
     git pulls automatically, your changes will be lost.
 
-Describe the differences between forks, clones, and branches.  When would you
-use one instead of another?
+Describe the differences between forks, clones, and branches.  When would you use one instead of another?
 
-    Fill in your answer here
+    Forks are copies of another user's repository that you use as your
+    own, when you do not have permission to modify another user's repository (i.e. you are not a collaborator). Clones are copies of
+    your repository that you can use locally and you can have multiple copies locally). Branches exist within a single repository, which
+    can be your own repository, or one that you are a collaborator on.
+
+    Use forks when you want to have a copy of someone elses repository
+    that you do not have write access to. Use clone when you want to
+    copy a repository from GitHub to your local machine, or from one
+    location on GitHub or your local machine to another location on
+    GitHub or your local machine. Use branching when you want to
+    create changes that will not affect the main (master) branch so
+    that any adverse affects will not impact your production code.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
