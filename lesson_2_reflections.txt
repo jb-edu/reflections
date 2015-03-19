@@ -33,3 +33,8 @@ What is the result of merging two branches together? Why do we represent it in t
   represent it the way we do in the diagram so that we can see all of the
   history that resulted from both branches.
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+  Pro: helps eliminate the "easy" merging details.
+  Cons: does not know what to do with more complicated changes between
+  branches.
