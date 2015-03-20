@@ -32,12 +32,22 @@ stored locally?
     determine what is different in your local copy from changes made by
     a collaborator to the online repository.
 
-How would you collaborate without using Git or GitHub?  What would be easier,
-and what would be harder?
+How would you collaborate without using Git or GitHub?  What would be easier, and what would be harder?
 
-    Fill in your answer here
+    Using another version control system. Alternatively, you could
+    have a way to communicate which files you are working on and try
+    to "lock" those files so that others cannot make changes to them.
+    However, this does not mean that files they reference would not be
+    changed. It would be easier to upload your changes but much more
+    difficult to keep track of changes that might impact each other.
 
-When would you want to make changes in a separate branch rather than directly in
-master?  What benefits does each approach have?
+When would you want to make changes in a separate branch rather than directly in master?  What benefits does each approach have?
 
-    Fill in your answer here
+    Make changes in a separate branch when you are collaborating with
+    others so as to maintain the integrity of the master branch. Make
+    changes directly in master when you are the sole contributor.
+    Making changes directly in master has the benefit of simplicity
+    of updates to the master locally as well as on GitHub, whereas
+    merging branches requires additional steps, particularly in the
+    case where there are two or more collaborators on a given project.
+
